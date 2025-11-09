@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (in any subfolder)
+**/auth_env/
+**/converter_env/
+**/gateway_env/
+**/notification_env/
+**/.venv/
+**/env/
+**/ENV/
+**/env.bak/
+**/venv.bak/

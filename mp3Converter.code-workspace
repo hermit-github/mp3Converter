@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "auth"
+    },
+    {
+      "path": "converter"
+    },
+    {
+      "path": "gateway"
+    },
+    {
+      "path": "notification"
+    },
+  ],
+  "settings": {
+    "cSpell.words": []
+  }
+}
