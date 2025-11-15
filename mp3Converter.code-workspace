@@ -12,6 +12,9 @@
     {
       "path": "notification"
     },
+    {
+      "path":"frontend"	
+    }
   ],
   "settings": {
     "cSpell.words": []
