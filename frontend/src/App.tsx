@@ -1,11 +1,14 @@
-import './App.css'
-import BookList from './components/BookList'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './routes'
+import { ThemeProvider } from './components/theme-provider'
 
 function App() {
 
   return (
     <>
-      <BookList />
+      <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+        <RouterProvider router={router} />
+      </ThemeProvider>
     </>
   )
 }
